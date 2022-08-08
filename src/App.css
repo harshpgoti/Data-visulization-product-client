@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+}
+body {
+  text-align: center;
+  margin: 100px 0;
+}
+#visualization{
+  width:600px;
+  margin: auto;
+  margin-bottom: 75px;
+}
+
+.leaflet-container{
+
+  width: 600px;
+  height: 600px;
+}
+
+.popup{
+  position:fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: fit-content;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1111;
+}
+
+.popup-inner{
+  position: relative;
+  padding: 32px;
+  width: 100%;
+  background-color: aliceblue;
+}
+
+.rmpopup{
+  overflow-y: hidden;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.hourlyeventsChart {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.dailyeventschart {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.monthlystatChart {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #f44336;
+}
+
+.gioMap {
+  background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+}
+
+.nav-ul{
+  padding: 5px;
+  margin: 0px;
+  background-color: #61dafb;
+}
+
+.nav-ul li{
+  display: inline-block;
+  padding: 10px;
+}
+
+.nav-ul a {
+  color: #fff;
+  padding: 5px;
+  text-decoration: none;
+}
